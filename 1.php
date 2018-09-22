@@ -20,4 +20,12 @@
  	$newArray= (array)$value;
  	 echo searchForId($countryCode, $newArray);
  }
+
+ // for show country list
+ 	foreach ($array as $key => $value) {
+	 	$newArray= (array)$value;
+	 	echo "<pre>";
+	 	print_r($newArray);
+	 }
+
  ?>
